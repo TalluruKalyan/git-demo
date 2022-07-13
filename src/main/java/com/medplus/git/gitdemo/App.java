@@ -7,7 +7,7 @@ public class App {
 			System.out.println("this is get demo");
 		}
 		else {
-			System.out.println("this is not git ");
+			System.out.println("this is not git and another one ");
 		}
 	}
   public static void main(String[] args) {
