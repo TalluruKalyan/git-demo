@@ -13,7 +13,7 @@ public class GitTestAppApplication {
 	@PostMapping("/purchase")
 	public String purchase(@RequestBody Order order) {
 		return "Hi " + order.getUserName() + " order for " + order.getProductName() + " with amount "
-				+ order.getAmount() + " stored successfully...";
+				+ order.getAmount() + " stored successfully in the given format...";
 	}
 
 	public static void main(String[] args) {
